@@ -1,0 +1,156 @@
+﻿<Window x:Class="KeyPress.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:dd="urn:gong-wpf-dragdrop"
+        xmlns:local="clr-namespace:KeyPress"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="Target" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="1">PRESS A BUTTON</TextBlock>
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_0_C1" Grid.Row="0" Grid.Column="1" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_0_C2" Grid.Row="0" Grid.Column="2" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_0_C3" Grid.Row="0" Grid.Column="3" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_0_C4" Grid.Row="0" Grid.Column="4" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_0_C6" Grid.Row="0" Grid.Column="6" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_0_C7" Grid.Row="0" Grid.Column="7" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_0_C8" Grid.Row="0" Grid.Column="8" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_0_C9" Grid.Row="0" Grid.Column="9" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_1_C1" Grid.Row="1" Grid.Column="1" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_1_C2" Grid.Row="1" Grid.Column="2" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_1_C3" Grid.Row="1" Grid.Column="3" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_1_C4" Grid.Row="1" Grid.Column="4" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_1_C6" Grid.Row="1" Grid.Column="6" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_1_C7" Grid.Row="1" Grid.Column="7" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_1_C8" Grid.Row="1" Grid.Column="8" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_1_C9" Grid.Row="1" Grid.Column="9" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_2_C1" Grid.Row="2" Grid.Column="1" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_2_C2" Grid.Row="2" Grid.Column="2" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_2_C3" Grid.Row="2" Grid.Column="3" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_2_C4" Grid.Row="2" Grid.Column="4" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_2_C6" Grid.Row="2" Grid.Column="6" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_2_C7" Grid.Row="2" Grid.Column="7" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_2_C8" Grid.Row="2" Grid.Column="8" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_2_C9" Grid.Row="2" Grid.Column="9" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_3_C1" Grid.Row="3" Grid.Column="1" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_3_C2" Grid.Row="3" Grid.Column="2" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_3_C3" Grid.Row="3" Grid.Column="3" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_3_C4" Grid.Row="3" Grid.Column="4" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_3_C6" Grid.Row="3" Grid.Column="6" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_3_C7" Grid.Row="3" Grid.Column="7" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_3_C8" Grid.Row="3" Grid.Column="8" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_3_C9" Grid.Row="3" Grid.Column="9" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_4_C1" Grid.Row="4" Grid.Column="1" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_4_C2" Grid.Row="4" Grid.Column="2" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_4_C3" Grid.Row="4" Grid.Column="3" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_4_C4" Grid.Row="4" Grid.Column="4" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_4_C6" Grid.Row="4" Grid.Column="6" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_4_C7" Grid.Row="4" Grid.Column="7" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_4_C8" Grid.Row="4" Grid.Column="8" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+        <ListBox ItemsSource="{Binding Collection}" x:Name="LB_4_C9" Grid.Row="4" Grid.Column="9" ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+ dd:DragDrop.IsDragSource="True"
+ dd:DragDrop.IsDropTarget="True" />
+
+
+    </Grid>
+</Window>
